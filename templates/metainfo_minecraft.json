@@ -1,0 +1,27 @@
+{
+  "attributes":["class", "direction", "nature"],
+  "values":{
+    "class": ["pig", "cow", "sheep", "chicken", "wolf", "horse", "villager", "treeA", "treeB", "armorstand", "boat", "minecart"],
+    "direction": ["facing forward", "facing backward", "facing right", "facing left"],
+    "nature": ["animal", "human", "plant", "inanimated object"]
+  },
+  "relations": ["left", "right", "behind", "front"],
+  "probabilities": [0.7, 0.3, 0.0],
+  "relation_phrases": {"left": ["left of", 
+                                "to the left of",
+                                "on the left side of"],
+                       "right": ["right of", 
+                                 "to the right of",
+                                 "on the right side of"],
+                       "behind": ["behind"],
+                       "front": ["in front of"]},
+  "tag_map": {"<N>": "nature",
+              "<D>": "direction",
+              "<C>": "class",
+              "<X>": "count",
+              "<R>": "relation",
+              "<A>": "attribute",
+              "<P>": "relation"},
+  "independent_questions": ["count-all", "count-other", "count-attribute", 
+                            "exist-other", "exist-attribute"]
+}

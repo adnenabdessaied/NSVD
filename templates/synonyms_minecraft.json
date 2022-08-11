@@ -1,0 +1,21 @@
+{
+  "cow": ["cow", "calf", "heifer"],
+  "pig": ["pig", "hog", "swine"],
+  "sheep": ["sheep", "lamb"],
+  "chicken": ["chicken", "hen", "rooster"],
+  "horse": ["horse", "stallion", "mare", "filly"],
+  "villager": ["villager", "person", "farmer"],
+  "armorstand": ["armorstand", "stand"],
+  "minecart": ["minecart", "cart"],
+  "facing forward": ["facing forward", "looking straight ahead"],
+  "facing backward": ["facing backward", "looking behind"],
+  "facing right": ["facing right", "looking to the right"],
+  "facing left": ["facing left", "looking to the left"],
+  "center": ["center", "middle"],
+  "image": ["image", "scene", "picture", "view"],
+  "right extreme": ["right extreme", "far right"],
+  "left extreme": ["left extreme", "far left"],
+  "several": ["several", "many", "multiple", "a lot of", "a number of"],
+  "the earlier": ["that", "the earlier", "the aforementioned", "the above", "the previous"]
+}
+

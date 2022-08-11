@@ -1,0 +1,70 @@
+[
+    {
+        "name":"Exist-Other objects",
+        "text":[
+            "Are there other things [in the image]?",
+            "Does the image have other things?",
+            "Any other things [in the image]?",
+            "Are there more things [in the image]?"
+        ],
+        "constraints":[],
+        "type":"existence",
+        "label":"exist-other",
+        "inputs":0
+    },
+
+    {
+        "name":"Exist Relation Object Immediate Pair",
+        "text": [
+            "How about to its <P>?",
+            "What about to its <P>?",
+            "And to its <P>?"
+        ],
+        "type":"exist-obj-rel",
+        "label":"exist-obj-rel-imm2",
+        "inputs":1,
+        "references": [
+            "How about to {F{its}} <P>?",
+            "What about to {F{its}} <P>?",
+            "And to {F{its}} <P>?"
+        ]
+    },
+
+    {
+        "name":"Existence Exclude Attribute Immediate",
+        "text": [
+            "Are there other things that share its <A> [in the image]?",
+            "Are there other things [present] [in the image] sharing its <A>?",
+            "Does the image have other things that share its <A>?",
+            "Does the image have other things sharing its <A>?"
+        ],
+        "type":"exist-obj-exclude",
+        "label":"exist-obj-exclude-imm",
+        "inputs":1,
+        "references": [
+            "Are there other things that share {F{its}} <A> [in the image]?",
+            "Are there other things [present] [in the image] sharing {F{its}} <A>?",
+            "Does the image have other things that share {F{its}} <A>?",
+            "Does the image have other things sharing {F{its}} <A>?"
+        ]
+    },
+    {
+        "name":"Existence Relation Object Earlier",
+        "text": [
+            "Are there other things [in the image] that share the same <A> with the earlier <Z1> <C1> <M1> <S1>?",
+            "Are there other things [in the image] that are of same <A> as the earlier <Z1> <C1> <M1> <S1>?",
+            "Does the image have other things that share the same <A> with the earlier <Z1> <C1> <M1> <S1>?",
+            "Does the image have other things that are of same <A> as the earlier <Z1> <C1> <M1> <S1>?"
+        ],
+        "type":"exist-obj-exclude",
+        "label":"exist-obj-exclude-early",
+        "inputs":2,
+        "references": [
+            "Are there other things [in the image] that share the same <A> with {F{the earlier <Z1> <C1> <M1> <S1>}}?",
+            "Are there other things [in the image] that are of same <A> as {F{the earlier <Z1> <C1> <M1> <S1>}}?",
+            "Does the image have other things that share the same <A> with {F{the earlier <Z1> <C1> <M1> <S1>}}?",
+            "Does the image have other things that are of same <A> as {F{the earlier <Z1> <C1> <M1> <S1>}}?"
+        ]
+    }
+    ]
+    

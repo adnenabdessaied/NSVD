@@ -1,0 +1,70 @@
+[
+    {
+        "name":"Exist-Attribute",
+        "text": [
+            "Are there [any] <Z> <C> <M> <S> [in the image]?",
+            "Any <Z> <C> <M> <S> [in the image]?",
+            "Does the image contain any <Z> <C> <M> <S>?"
+        ],
+        "constraints":[],
+        "type":"exist-attribute",
+        "label":"exist-attribute",
+        "inputs":1
+    },
+    {
+        "name":"Exist-Attribute Group",
+        "text": [
+            "Are there [any] <Z> <C> <M> <S> among them?",
+            "Are there [any] <Z> <C> <M> <S> in the group?",
+            "Do they have [any] <Z> <C> <M> <S>?",
+            "Any <Z> <C> <M> <S> in the group?",
+            "Any <Z> <C> <M> <S> among them?"
+        ],
+        "constraints":[],
+        "type":"exist-attribute-group",
+        "label":"exist-attribute-group",
+        "inputs":1,
+        "references": [
+            "Are there [any] <Z> <C> <M> <S> among {{them}}?",
+            "Are there [any] <Z> <C> <M> <S> in {{the group}}?",
+            "Do {{they}} have [any] <Z> <C> <M> <S>?",
+            "Any <Z> <C> <M> <S> in {{the group}}?",
+            "Any <Z> <C> <M> <S> among {{them}}?"
+        ]
+    },
+    {
+        "name":"Exist Relation Object Immediate",
+        "text": [
+            "Are there things [present] to its <P> [in the image]?",
+            "Does it have things to its <P> [in the image]?",
+            "Are there things [present] <R> itself [in the image]?",
+            "Does it have things to <R> itself [in the image]?"
+        ],
+        "type":"exist-obj-rel",
+        "label":"exist-obj-rel-imm",
+        "inputs":1,
+        "references": [
+            "Are there things [present] to {F{its}} <P> [in the image]?",
+            "Does {F{it}} have things to {F{its}} <P> [in the image]?",
+            "Are there things [present] <R> {F{itself}} [in the image]?",
+            "Does {F{it}} have things to <R> {F{itself}} [in the image]?"
+        ]
+    },
+
+    {
+        "name":"Exist Relation Object Earlier",
+        "text": [
+            "Are there things [present] <R> the earlier <Z1> <C1> <M1> <S1>?",
+            "Does the earlier <Z1> <C1> <M1> <S1> have things to its <P>?"
+        ],
+        "type":"exist-obj-rel",
+        "label":"exist-obj-rel-early",
+        "inputs":2,
+        "references": [
+            "Are there things [present] <R> {F{the earlier <Z1> <C1> <M1> <S1>}}?",
+            "Does {F{the earlier <Z1> <C1> <M1> <S1>}} have things to {F{its}} <P>?"
+        ]
+    }
+
+    ]
+    
