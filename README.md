@@ -57,7 +57,7 @@ You can also create your own data using the ``generate_dataset.py`` script.
 
 ## Scenes
 
-The derendered scenes do not need any further preprocessing and can be diretly used with our neuro-symbolic executor.
+The derendered scenes do not need any further preprocessing and can be directly used with our neuro-symbolic executor.
 
 ## Dialogs
 
