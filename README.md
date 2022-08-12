@@ -7,7 +7,7 @@ This repository contains the official code of the paper:
 
 [Adnen Abdessaied](https://adnenabdessaied.de), [Mihai Bace](https://perceptualui.org/people/bace/), [Andreas Bulling](https://perceptualui.org/people/bulling/)  
 **Oral Presentaion / Poster**  
-International Conferenc on Computational Linguistics (COLING), 2022 / Gyeongju, Republic of Korea.
+International Conferenc on Computational Linguistics (COLING), 2022 / Gyeongju, Republic of Korea :kr:
 
 If you find our code useful or use it in your own projects, please cite our paper:
 
