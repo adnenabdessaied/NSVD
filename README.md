@@ -12,7 +12,13 @@ International Conferenc on Computational Linguistics (COLING), 2022 / Gyeongju, 
 If you find our code useful or use it in your own projects, please cite our paper:
 
 ```
-TODO
+@inproceedings{abdessaied22_coling,
+  author = {Abdessaied, Adnen and Bâce, Mihai and Bulling, Andreas},
+  title = {Neuro-Symbolic Visual Dialog},
+  booktitle = {Proceedings of the 29th International Conference on Computational Linguistics (COLING)},
+  year = {2022},
+  pages = {1--11}
+}
 ```
 
 # Abstract
