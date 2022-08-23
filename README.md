@@ -3,7 +3,7 @@
 
 This repository contains the official code of the paper:
 
-## Neuro-Symbolic Visual Dialog [[PDF](TODO)]
+## Neuro-Symbolic Visual Dialog [[PDF](https://arxiv.org/abs/2208.10353)]
 
 [Adnen Abdessaied](https://adnenabdessaied.de), [Mihai Bace](https://perceptualui.org/people/bace/), [Andreas Bulling](https://perceptualui.org/people/bulling/)  
 **Oral Presentation**  
