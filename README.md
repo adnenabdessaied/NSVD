@@ -14,10 +14,16 @@ If you find our code useful or use it in your own projects, please cite our pape
 ```
 @inproceedings{abdessaied22_coling,
   author = {Abdessaied, Adnen and Bâce, Mihai and Bulling, Andreas},
-  title = {Neuro-Symbolic Visual Dialog},
+  title = {{Neuro-Symbolic Visual Dialog}},
   booktitle = {Proceedings of the 29th International Conference on Computational Linguistics (COLING)},
   year = {2022},
-  pages = {192–-217}
+  pages = {192–-217},
+  month = {oct},
+  year = {2022},
+  address = {Gyeongju, Republic of Korea},
+  publisher = {International Committee on Computational Linguistics},
+  url = {https://aclanthology.org/2022.coling-1.17},
+  pages = "192--217",
 }
 ```
 
