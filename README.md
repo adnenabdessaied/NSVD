@@ -17,7 +17,7 @@ If you find our code useful or use it in your own projects, please cite our pape
   title = {{Neuro-Symbolic Visual Dialog}},
   booktitle = {Proceedings of the 29th International Conference on Computational Linguistics (COLING)},
   year = {2022},
-  pages = {192–-217},
+  pages = {192--217},
   month = {oct},
   year = {2022},
   address = {Gyeongju, Republic of Korea},
