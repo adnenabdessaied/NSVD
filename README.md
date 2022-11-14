@@ -6,8 +6,8 @@ This repository contains the official code of the paper:
 ## Neuro-Symbolic Visual Dialog [[PDF](https://arxiv.org/abs/2208.10353)]
 
 [Adnen Abdessaied](https://adnenabdessaied.de), [Mihai Bâce](https://perceptualui.org/people/bace/), [Andreas Bulling](https://perceptualui.org/people/bulling/)  
-:loudspeaker: **Oral Presentation** :loudspeaker:  
 International Conferenc on Computational Linguistics (COLING), 2022 / Gyeongju, Republic of Korea :kr:
+:loudspeaker: **Oral Presentation** :loudspeaker:  
 
 If you find our code useful or use it in your own projects, please cite our paper:
 
