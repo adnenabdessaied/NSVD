@@ -455,6 +455,13 @@ class SeqToSeqC(nn.Module):
         encOut, capO = self.encoder(cap, imgFeat)
         predSoftmax, progHC = self.decoder(prog, encOut, capO)
         return predSoftmax, progHC
+   
+    def sample(self, cap):
+        with torch.no_grad():
+            encOut, capO = self.encoder(cap)
+        outputTokens, outputLogProbs = self.decoder.sample(encOut, capO)
+        outputTokens = torch.stack(outputTokens, 0).transpose(0, 1)
+        return outputTokens
 
 
 class SeqToSeqQ(nn.Module):
