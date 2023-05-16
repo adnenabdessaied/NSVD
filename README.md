@@ -1,30 +1,22 @@
+<div align="center">
+<h1> Neuro-Symbolic Visual Dialog </h1>
 
-# NSVD
+**[Adnen Abdessaied][1], &nbsp; [Mihai Bâce][2], &nbsp; [Andreas Bulling][3]** <br>
 
-This repository contains the official code of the paper:
-
-## Neuro-Symbolic Visual Dialog [[PDF](https://arxiv.org/abs/2208.10353)]
-
-[Adnen Abdessaied](https://adnenabdessaied.de), [Mihai Bâce](https://perceptualui.org/people/bace/), [Andreas Bulling](https://perceptualui.org/people/bulling/)  
-International Conferenc on Computational Linguistics (COLING), 2022 / Gyeongju, Republic of Korea :kr:
-
+**Published at [COLING 2022][4] :kr: [[PDF][5]]** <br>
 :loudspeaker: **Oral Presentation** :loudspeaker:  
+</div>
 
+# Citation 
 If you find our code useful or use it in your own projects, please cite our paper:
 
-```
+```bibtex
 @inproceedings{abdessaied22_coling,
   author = {Abdessaied, Adnen and Bâce, Mihai and Bulling, Andreas},
   title = {{Neuro-Symbolic Visual Dialog}},
-  booktitle = {Proceedings of the 29th International Conference on Computational Linguistics (COLING)},
+  booktitle = {COLING},
   year = {2022},
-  pages = {192--217},
-  month = {oct},
-  year = {2022},
-  address = {Gyeongju, Republic of Korea},
-  publisher = {International Committee on Computational Linguistics},
   url = {https://aclanthology.org/2022.coling-1.17},
-  pages = "192--217",
 }
 ```
 
@@ -176,6 +168,12 @@ We thank [Ahmed Shah](https://www.linkedin.com/in/mahmedshah/) for his MAC-XXX i
 
 # Contributors
 
-- [Adnen Abdessaied](https://adnenabdessaied.de)
+- [Adnen Abdessaied][1]
 
 For any questions or enquiries, don't hesitate to contact the above contributor.
+
+[1]: https://adnenabdessaied.de
+[2]: https://perceptualui.org/people/bace/
+[3]: https://perceptualui.org/people/bulling/
+[4]: https://coling2022.org/
+[5]: https://aclanthology.org/2022.coling-1.17.pdf
