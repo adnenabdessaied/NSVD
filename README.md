@@ -3,7 +3,7 @@
 
 **[Adnen Abdessaied][1], &nbsp; [Mihai Bâce][2], &nbsp; [Andreas Bulling][3]** <br>
 
-**Published at [COLING 2022][4] :kr: [[PDF][5]]** <br>
+**Published at [COLING 2022][4] :kr: [[Paper][5]]** <br>
 :loudspeaker: **Oral Presentation** :loudspeaker:  
 </div>
 
